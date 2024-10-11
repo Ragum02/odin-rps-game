@@ -4,3 +4,14 @@ console.log("Hello World");
 // take user input
 // Randomize computer input
 // compare both input
+
+
+function getComputerChoice(number){
+    if(number === 1){
+        return "Rock";
+    } else if (number === 2) {
+        return "Paper";
+    } else {
+        return "Scissors";
+    }
+}
