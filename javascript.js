@@ -5,6 +5,7 @@ console.log("Hello World");
 // Randomize computer input
 // compare both input
 
+const randomizeChoice = Math.floor(Math.random() * 3) + 1;
 
 function getComputerChoice(number){
     if(number === 1){
@@ -15,3 +16,5 @@ function getComputerChoice(number){
         return "Scissors";
     }
 }
+
+console.log(getComputerChoice(randomizeChoice));
