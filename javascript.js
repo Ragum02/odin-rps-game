@@ -42,7 +42,7 @@ console.log("You have: " + humanScore + " points");
         computerScore++;
 console.log("Computer has: " + computerScore + " points");
     } else if (humanChoice === computerChoice){
-        console.log("It's a Draw for this round!");
+        console.log("It's a tie for this round!");
     } else {
         console.log("Invalid user answer !");
     }
@@ -59,7 +59,7 @@ console.log (`You win the game!  You: ${humanScore} Computer: ${computerScore}`)
 } else if (humanScore < computerScore) {
     console.log(`You lose the game! You: ${humanScore} Computer: ${computerScore}`);
 } else {
-    console.log("DRAAAW !");
+    console.log("TIIIIEE ! ");
 }
 }
 
